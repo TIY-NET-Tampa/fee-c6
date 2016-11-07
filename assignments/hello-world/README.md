@@ -42,28 +42,19 @@ In your first assignment you will end up with a web page, no matter how simple, 
 
   You can change the commit message to be anything you want.
 
-- Open the project folder in Atom:
+- Open Visual Studio, "File => open => Website"
 
-  ```sh
-  atom .
-  ```
+- In your solution explorer, find, "public/index.html", bring up the context menu, and select "Set as Start Page"
 
-  Remember `.` is an alias for the current directory.
-- Tab back to your Terminal and start the development server:
+- Open "public/index.html", and change "/screen.css" to  "screen.css"
 
-  ```sh
-  npm start
-  ```
+- In the dialog that popped up, select "No, do not add a web.config" 
 
-  This should automatically happen, but if it doesn't; navigate to [http://localhost:3000](http://localhost:3000) in your browser. As you make changes to your code, the development server will automatically refresh this page in real-time.
+- It should open in new browser tab
 
-- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
+- Using the file browser in your editor, open the file `public/index.html` and format your essay with HTML tags and place them into the document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`. 
 
-### Explorer Mode
-
-- Follow all of the setup instructions.
-- All of your HTML (and CSS if you do *Adventure Mode*) should be formatted cleanly and consistently. Remember to check the appearance in your browser as well!
-- Spend some more time getting to know your terminal and text editor. Try finding some color schemes you like online and installing them.
+- To see your changes, you need to refresh the browser
 
 ### Adventure Mode
 
@@ -73,7 +64,6 @@ In your first assignment you will end up with a web page, no matter how simple, 
 
 ### Epic Mode
 
-- Install an `oh-my-zsh` theme of your liking. Take a screenshot of your terminal with the theme installed.
 - Create a full layout for your page (heading, navigation, sidebar, footer, etc.).
 - Use more complex CSS selectors than we covered in class.
 
