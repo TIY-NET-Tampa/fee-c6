@@ -49,22 +49,9 @@ Replicate the *DESIGNCO* design mockup below using HTML & CSS (Cascading Style S
 
   You can change the commit message to be anything you want.
 
-- Open the project folder in Atom:
+- Open as a web site in Visual Studio
 
-  ```sh
-  atom .
-  ```
-
-  Remember `.` is an alias for the current directory.
-- Tab back to your Terminal and start the development server:
-
-  ```sh
-  npm start
-  ```
-
-  This should automatically happen, but if it doesn't; navigate to [http://localhost:3000](http://localhost:3000) in your browser. As you make changes to your code, the development server will automatically refresh this page in real-time.
-
-- Using the file browser in your editor, open the files `public/index.html` and `public/screen.css` and mark up and style your document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
+- Using the solution explorer in your editor, open the files `public/index.html` and `public/screen.css` and mark up and style your document (remember all content goes _inside_ the `<body>` tags). Don't worry about the other files in the directory for now, we'll talk about those later, right now, we're mostly concerned with the two files in `public`; `index.html` and `screen.css`.
 
 ### Explorer Mode
 
